@@ -28,7 +28,7 @@ public class App {
             System.out.println("Clientes insertados en la base de datos" + cliente4);
 
         } catch (Exception e) {
-        throw new RuntimeException(e);
+            throw new RuntimeException(e);
         }
 
         System.out.println("");
